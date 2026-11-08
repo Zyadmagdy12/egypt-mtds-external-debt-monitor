@@ -1,0 +1,73 @@
+record_id,indicator,period,basis,value,unit,status,source_id,locator,qualification
+E001,total_expenditure,FY2023/24,Actual,3055.194,EGP_bn,VERIFIED,S04,Table10,
+E002,interest_payments,FY2023/24,Actual,1364.089,EGP_bn,VERIFIED,S04,Table10,
+E003,overall_deficit,FY2023/24,Actual,504.496,EGP_bn,VERIFIED,S04,Table10,Positive deficit magnitude
+E004,overall_deficit_gdp,FY2023/24,Actual,3.60,percent,VERIFIED,S04,Table10,
+E005,primary_surplus,FY2023/24,Derived from fiscal table,859.593,EGP_bn,CALCULATED,S04,Table10,Interest minus overall deficit
+E006,primary_surplus_gdp,FY2023/24,Actual,6.14,percent,VERIFIED,S04,Table10,Includes Ras El Hekma receipts
+E007,Ras_El_Hekma_fiscal_receipts,FY2023/24,Reported receipts,510,EGP_bn,VERIFIED,S04,Table10 footnote6,
+E008,total_expenditure,FY2024/25,Actual,3904.865,EGP_bn,VERIFIED,S04,Table10,
+E009,interest_payments,FY2024/25,Actual,1919.098,EGP_bn,VERIFIED,S04,Table10,
+E010,overall_deficit,FY2024/25,Actual,1290.092,EGP_bn,VERIFIED,S04,Table10,
+E011,overall_deficit_gdp,FY2024/25,Actual,7.22,percent,VERIFIED,S04,Table10,
+E012,primary_surplus,FY2024/25,Derived from fiscal table,629.006,EGP_bn,CALCULATED,S04,Table10,
+E013,primary_surplus_gdp,FY2024/25,Actual,3.52,percent,VERIFIED,S04,Table10,
+E014,total_expenditure,FY2025/26,Budget,4573.963,EGP_bn,VERIFIED,S04,Table10,
+E015,interest_payments,FY2025/26,Budget,2298.030,EGP_bn,VERIFIED,S04,Table10,
+E016,overall_deficit,FY2025/26,Budget,1490.970,EGP_bn,VERIFIED,S04,Table10,
+E017,overall_deficit_gdp,FY2025/26,Budget,7.3,percent,VERIFIED,S04,Table10,
+E018,primary_surplus,FY2025/26,Budget derived,807.060,EGP_bn,CALCULATED,S04,Table10,
+E019,primary_surplus_gdp,FY2025/26,Budget,4.0,percent,VERIFIED,S04,Table10,
+E020,primary_surplus_gdp,FY2025/26,Outcome statement,4.9,percent,VERIFIED,S02;S13,p3; statement,
+E021,overall_deficit_gdp,FY2025/26,Outcome statement,5.8,percent,VERIFIED,S13;S14,Statements,
+E022,primary_surplus,FY2025/26,Outcome,,EGP_bn,NOT VERIFIED,,,Do not infer exact amount from rounded ratio
+E023,total_expenditure,FY2026/27,Budget,5187.975,EGP_bn,VERIFIED,S04,Table10,Rounded published amount
+E024,interest_payments,FY2026/27,Budget,2419.823,EGP_bn,VERIFIED,S04,Table10,
+E025,overall_deficit,FY2026/27,Budget,1202.641,EGP_bn,VERIFIED,S04,Table10,
+E026,overall_deficit_gdp,FY2026/27,Budget,4.9,percent,VERIFIED,S04,Table10,
+E027,primary_surplus,FY2026/27,Budget derived,1217.182,EGP_bn,CALCULATED,S04,Table10,
+E028,primary_surplus_gdp,FY2026/27,Budget,5.0,percent,VERIFIED,S04,Table10,
+E029,primary_surplus,FY2023/24,Alternative printed table,859.592,EGP_bn,VERIFIED,S03,Table43,
+E030,primary_surplus,FY2024/25,Alternative printed table,629.230,EGP_bn,VERIFIED,S03,Table43,
+E031,overall_deficit_gdp,FY2024/25,Alternative printed table,7.4,percent,VERIFIED,S03,Table43,
+E032,overall_deficit_gdp,FY2024/25,Alternative printed table,7.1,percent,VERIFIED,S03,Table44,
+E033,NIR,2024-06-30,Stock,46.385,USD_bn,VERIFIED,S03,Table41,
+E034,NIR,2025-06-30,Stock,48.720,USD_bn,VERIFIED,S03,Table41,
+E035,NIR,2026-08-31,Stock,57.2145,USD_bn,VERIFIED,S05,Financial sector,More precise than S03 rounded amount
+E036,NIR,2026-09-30,Provisional stock,57.3482,USD_bn,PARTIALLY VERIFIED,S15,Official indexed announcement,Direct page rejected
+E037,gross_international_reserves,2026-09-30,Stock,57.350,USD_bn,VERIFIED,S05,External sector,Not NIR
+E038,import_cover,2024-06-30,Merchandise imports,7.7,months,VERIFIED,S03,Table41,
+E039,import_cover,2025-06-30,Merchandise imports,6.4,months,VERIFIED,S03,Table41,
+E040,import_cover,2026-09-30,Merchandise imports,,months,NOT VERIFIED,,,No current denominator established
+E041,workers_remittances,FY2023/24,Annual flow,21938,USD_mn,VERIFIED,S03,Table21,
+E042,workers_remittances,FY2024/25,Annual flow,36460,USD_mn,VERIFIED,S03,Table21,
+E043,workers_remittances,2025-07-01/2026-03-31,Nine-month flow,34905,USD_mn,VERIFIED,S03,Table20,
+E044,workers_remittances,FY2025/26,Annual rounded announcement,47300,USD_mn,PARTIALLY VERIFIED,S17,Official indexed announcement,Approximately USD47.3bn
+E045,tourism_revenue,FY2023/24,Annual flow,14376.0,USD_mn,VERIFIED,S03,Table13,
+E046,tourism_revenue,FY2024/25,Annual flow,16725.3,USD_mn,VERIFIED,S03,Table13,
+E047,tourism_revenue,2025-07-01/2025-09-30,Quarterly flow,5477.8,USD_mn,VERIFIED,S03,Table13,
+E048,tourism_revenue,FY2025/26,Annual flow,,USD_mn,NOT VERIFIED,,,Full-year detail not retrieved
+E049,Suez_Canal_receipts,FY2023/24,Annual flow,6632,USD_mn,VERIFIED,S03,Table12,
+E050,Suez_Canal_receipts,FY2024/25,Annual flow,3616,USD_mn,VERIFIED,S03,Table12,
+E051,Suez_Canal_receipts,FY2025/26,Annual flow,,USD_mn,NOT VERIFIED,,,Not established from retrieved table
+E052,net_FDI,FY2023/24,Annual flow,46065,USD_mn,VERIFIED,S03,Table19; Table30,
+E053,net_FDI,FY2024/25,Annual flow,12224,USD_mn,VERIFIED,S03,Table19; Table30,
+E054,net_FDI,2025-07-01/2025-12-31,Six-month flow,9272,USD_mn,VERIFIED,S03,Table30,
+E055,net_FDI_excluding_Ras_El_Hekma,FY2023/24,Rounded adjusted comparison,11100,USD_mn,VERIFIED,S01,p32,Not a complete transaction bridge
+E056,direct_investment_in_Egypt_net,2025-07-01/2026-03-31,Nine-month inward flow,13038,USD_mn,VERIFIED,S03,Table20,
+E057,direct_investment_abroad_net,2025-07-01/2026-03-31,Nine-month outward flow,-653,USD_mn,VERIFIED,S03,Table20,
+E058,current_account_balance,FY2023/24,Annual flow,-20807,USD_mn,VERIFIED,S03,Table19,
+E059,current_account_balance,FY2024/25,Annual flow,-15425,USD_mn,VERIFIED,S03,Table19,
+E060,current_account_balance,2025-07-01/2026-03-31,Nine-month flow,-14570,USD_mn,VERIFIED,S03,Table20,
+E061,overall_BOP_balance,FY2023/24,Annual flow,9687,USD_mn,VERIFIED,S03,Table19,
+E062,overall_BOP_balance,FY2024/25,Annual flow,-2074,USD_mn,VERIFIED,S03,Table19,
+E063,overall_BOP_balance,2025-07-01/2026-03-31,Nine-month flow,-1823,USD_mn,VERIFIED,S03,Table20,
+E064,overall_BOP_balance,FY2025/26,Rounded announcement,2800,USD_mn,PARTIALLY VERIFIED,S16,Official indexed announcement,Full release inaccessible
+E065,capital_financial_account,FY2025/26,Rounded announcement,23200,USD_mn,PARTIALLY VERIFIED,S16,Official indexed announcement,
+E066,current_account_balance,FY2025/26,Rounded announcement,-22500,USD_mn,PARTIALLY VERIFIED,S16,Official indexed announcement,
+E067,Moody_rating,June2026_bulletin,MoF reported,B3,rating,VERIFIED,S02,p3,Exact action date not established
+E068,Moody_outlook,June2026_bulletin,MoF reported,Positive,outlook,VERIFIED,S02,p3,
+E069,SP_rating,2026-10-10,MoF reported,B/B,rating,VERIFIED,S14,Statement,Agency scale detail not expanded beyond source
+E070,SP_outlook,2026-10-10,MoF reported,Stable,outlook,VERIFIED,S14,Statement,
+E071,Fitch_rating,2026-10-08,MoF reported,B,rating,VERIFIED,S13,Statement,
+E072,Fitch_outlook,2026-10-08,MoF reported,Stable,outlook,VERIFIED,S13,Statement,

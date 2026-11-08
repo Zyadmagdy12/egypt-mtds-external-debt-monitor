@@ -1,0 +1,47 @@
+check_id,check,period,reported_or_comparator,calculated_or_alternative,difference,unit,status,resolution,source_ids
+F001,MoF_component_labels,2026-06-30,Brief labels,Official bilateral9632;multilateral38918;ParisClub144,,text,VERIFIED,Use published labels,S02
+F002,MoF_components_vs_headline,2026-06-30,76148,76291,143,USD_mn,CALCULATED,Unresolved; retain headline and component sum,S02
+F003,MoF_components_vs_headline,2026-03-31,76567,76566,-1,USD_mn,CALCULATED,Preserve rounding-sized residual,S02
+F004,MoF_quarterly_changes,2026Q2,-419,-275,144,USD_mn,CALCULATED,Component movement does not reproduce headline movement,S02
+F005,June2025_baseline_difference,2025-06-30,78579,78618,39,USD_mn,CALCULATED,78618 not independently located,S06;USER_INPUT
+F006,MoF_yoy_change_verified_balances,2025-06/2026-06,78579,76148,-2431,USD_mn,CALCULATED,Use as independently reproducible stock change,S06;S02
+F007,MoF_yoy_change_conditional,2025-06/2026-06,78618,76148,-2470,USD_mn,CALCULATED,Conditional on unverified starting balance,USER_INPUT;S02
+F008,MoF_yoy_percent_verified_balances,2025-06/2026-06,,,-3.093702,percent,CALCULATED,Not a verified net-repayment rate,S06;S02
+F009,CBE_minus_MoF,2026-06-30,76148,166748,90600,USD_mn,CALCULATED,Institutional allocation incomplete,S02;S05
+F010,CBE_government_minus_MoF,2025-06-30,78579,81994,3415,USD_mn,CALCULATED,Government scope difference requires bridge,S06;S03
+F011,CBE_sector_sum,2025-06-30,161230,161230,0,USD_mn,CALCULATED,Pass,S03
+F012,CBE_maturity_sum,2025-06-30,161230,161230,0,USD_mn,CALCULATED,Pass,S03
+F013,CBE_maturity_sum,2025-12-31,163911,163300,-611,USD_mn,CALCULATED,Unresolved,S03
+F014,December2024_budget_stock_sum,2024-12-31,14073.285,14200.045,126.760,EGP_bn,CALCULATED,Do not overwrite raw domestic debt row,S07
+F015,December2024_domestic_residual,2024-12-31,,10154.202,,EGP_bn,CALCULATED,Matches rounded overview rather than table,S07
+F016,December2024_table_unit,2024-12-31,EGP billion label,Amounts correspond to EGP million,,text,PARTIALLY VERIFIED,Unit normalization disclosed,S07
+F017,December2025_FX_conflict,2025-12-31,47.6043,47.6950,0.0907,EGP_per_USD,CALCULATED,Preserve both quotations,S08
+F018,December2025_translation_p7_rate,2025-12-31,3639.147,3639.158318,0.011318,EGP_bn,CALCULATED,Close to printed EGP balance,S08
+F019,December2025_translation_p13_rate,2025-12-31,3639.147,3646.091970,6.944970,EGP_bn,CALCULATED,Does not reproduce printed EGP balance,S08
+F020,December2025_total_debt_growth,2025-06/2025-12,4,9.672765,5.672765,percentage_points,CALCULATED,Printed change does not match displayed endpoints,S08
+F021,June2026_external_gdp_conflict,2026-06-30,17.4,17.6,0.2,percentage_points,CALCULATED,Preserve source locations,S02
+F022,June2026_external_share_denominator,2026-06-30,17.4 labelled share of total,21.2 published portfolio share,,text,PARTIALLY VERIFIED,Do not use mislabeled sentence as portfolio share,S02
+F023,June2025_debt_ratio_vintages,2025-06-30,85.6;83.8;82.5,,,percent,VERIFIED,Keep vintage labels,S06;S01;S02
+F024,June2020_debt_ratio_vintages,2020-06-30,80.9,87.5,6.6,percentage_points,CALCULATED,Do not splice chart ratios into earlier GDP denominator,S10;S02
+F025,MTDS_interest_baseline,FY2024/25,11,10.7,-0.3,percentage_points,CALCULATED,Narrative versus chart unresolved,S01
+F026,MTDS_domestic_maturing_one_year,Portfolio baseline,56.5,43,-13.5,percentage_points,CALCULATED,Definition or vintage difference unresolved,S01
+F027,MTDS_refixing_one_year,Portfolio baseline,74,76,2,percentage_points,CALCULATED,Text versus chart unresolved,S01
+F028,MTDS_external_currency_sum,Portfolio baseline,100,100.32,0.32,percentage_points,CALCULATED,Do not normalize,S01
+F029,ATM_measure_comparability,2025-2026,Stock ATM;treasury ATM;issuance ATM,,,text,PARTIALLY VERIFIED,Keep separate series,S01;S06;S02
+F030,Primary_surplus_FY2023_24,FY2023/24,859.592,859.593,0.001,EGP_bn,CALCULATED,Printed alternative versus S04-derived result,S03;S04
+F031,Primary_surplus_FY2024_25,FY2024/25,629.230,629.006,-0.224,EGP_bn,CALCULATED,Different fiscal table vintages,S03;S04
+F032,External_EGP_stock_change,2025-06/2026-06,3892.047,3743.5,-148.547,EGP_bn,CALCULATED,Published rounded stock endpoints,S06;S02
+F033,USD_stock_change_effect_at_initial_FX,2025-06/2026-06,,,-120.407673,EGP_bn,CALCULATED,Not equivalent to pure net flows,S06;S02
+F034,EGP_USD_translation_effect,2025-06/2026-06,,,-28.090997,EGP_bn,CALCULATED,Ending USD stock multiplied by exchange-rate change,S06;S02
+F035,External_translation_model_change,2025-06/2026-06,,,-148.498670,EGP_bn,CALCULATED,Sum of stock and FX effects,S06;S02
+F036,External_translation_model_residual,2025-06/2026-06,-148.498670,-148.547000,-0.048330,EGP_bn,CALCULATED,Rounding or vintage residual unresolved,S06;S02
+F037,Net_debt_flow_identification,2025-06/2026-06,USD-equivalent stock change,,,text,NOT VERIFIED,Disbursements repayments and other stock-flow adjustments required,S06;S02
+F038,June2026_CBE_sector_breakdown,2026-06-30,Headline166748,,,USD_mn,NOT VERIFIED,Do not extrapolate June2025 sectors,S05;S03
+F039,June2026_CBE_maturity_breakdown,2026-06-30,Headline166748,,,USD_mn,NOT VERIFIED,Direct CBE detail inaccessible,S05
+F040,MTDS_numerical_stress_parameters,Strategy horizon,,,,parameter_set,NOT VERIFIED,No shock magnitudes or numerical stressed tables located,S01
+F041,December2024_implied_GDP,2024-12-31,,17267.834356,,EGP_bn,CALCULATED,Derived from rounded total-debt ratio; not published GDP,S07
+F042,December2025_implied_GDP,2025-12-31,,21286.351492,,EGP_bn,CALCULATED,Derived from rounded total-debt ratio; not published GDP,S08
+F043,June2026_implied_GDP,2026-06-30,,21517.876754,,EGP_bn,CALCULATED,Uses81.95percent; not published GDP,S02
+F044,Registry_vs_statistical_bonds,June2026_vs_November2026,Nonresident statistical stock,Gross nominal securities registry,,text,PARTIALLY VERIFIED,Different date and measurement basis; no forced reconciliation,S02;PROJECT01_INPUT
+F045,NIR_vs_gross_reserves,2026-09-30,57.3482,57.350,0.0018,USD_bn,CALCULATED,Different reserve concepts; NIR evidence partly accessible,S15;S05
+F046,Historical_source_edition_metadata,2025,Indexed January,Internal February,,text,PARTIALLY VERIFIED,Data retained with edition ambiguity,S10

@@ -1,0 +1,21 @@
+date,variant,total_egp_bn,domestic_egp_bn,external_egp_bn,external_usd_mn,gdp_published_egp_bn,gdp_basis,total_gdp_pct,domestic_gdp_pct,external_gdp_pct,domestic_total_pct_calc,external_total_pct_calc,fx_published_egp_per_usd,fx_implied_calc,atm_domestic_years,atm_external_years,atm_total_years,source_ids,status,notes
+2020-06-30,earlier_fmr,5094.213,3989.688,1104.525,68722,6295,Printed debt denominator,80.9,63.4,17.5,78.318,21.682,,16.072364,,,3.17,S10;S11;S09,VERIFIED,Calculated columns are identified by suffix
+2020-06-30,june2026_bulletin_chart,,,,,,,,87.5,68.6,19.0,,,,,,,,S02,VERIFIED,Alternative historical ratio vintage
+2021-06-30,earlier_fmr,5859.313,4591.676,1267.637,81167,6923,Printed debt denominator,84.6,66.3,18.3,78.365,21.635,,15.617640,,,3.26,S10;S11;S09,VERIFIED,
+2022-06-30,earlier_fmr,6926.278,5399.654,1526.624,81432,7941,Printed debt denominator,87.2,68.0,19.2,77.959,22.041,,18.747225,,,3.05,S10;S11;S09,VERIFIED,
+2022-06-30,economic_report_gdp,,,,,7843,Later national accounts GDP,,,,,,,,,,,S03,VERIFIED,Do not substitute silently into older debt ratios
+2022-06-30,mtds_stock_variant,6925.772,5399.148,1526.624,,,,,,,,,,,,,,S01,VERIFIED,Stock differs from earlier FMR
+2023-06-30,earlier_fmr,9665.001,7119.506,2545.495,82552,10100,Printed debt denominator,95.7,70.5,25.2,73.663,26.337,,30.835049,,,3.23,S10;S11;S09,VERIFIED,
+2023-06-30,economic_report_gdp,,,,,10155,Later national accounts GDP,,,,,,,,,,,S03,VERIFIED,
+2024-06-30,earlier_fmr,12519.664,8727.220,3792.444,79074,14000,Printed debt denominator,89.4,62.3,27.1,69.708,30.292,47.9606,47.960695,1.24,,3.46,S10;S11;S06;S09,VERIFIED,ATM of 3.47 also appears in S06
+2024-06-30,september2026_fmr_variant,12519.662,8727.218,3792.444,,13903,Later national accounts GDP,90.1,62.8,27.3,,,,,,,,S09;S03,VERIFIED,Later source vintage
+2024-12-31,bulletin_table_as_printed,14073.285,10280.962,3919.083,77192,,,81.5,59.5,22.7,73.053,27.848,50.77,50.770585,,,3.26,S07,PARTIALLY VERIFIED,Domestic plus external exceeds headline by EGP126.760bn; unit heading erroneous
+2024-12-31,bulletin_overview_domestic,,10154.2,,,,,,58.8,,,,,,,,,,S07,VERIFIED,Rounded overview figure; not substituted into raw table
+2025-06-30,later_ratio_vintage,14964.314,11072.267,3892.047,78579,18136,Later national accounts GDP,82.5,61.1,21.5,73.991,26.009,49.5301,49.530371,1.62,,2.92,S06;S02;S03;S09,VERIFIED,Composite source record with explicitly identified vintages
+2025-06-30,june2025_bulletin_ratios,,,,,,,,85.6,63.3,22.3,,,,,,,,S06,VERIFIED,Original bulletin ratios
+2025-06-30,mtds_ratios_and_atm,,,,,,,,83.8,62.0,21.8,,,,,,,3.5,S01,VERIFIED,MTDS baseline; portfolio ATM comparability unresolved
+2025-06-30,user_comparison_balance,,,,78618,,,,,,,,,,,,,USER_INPUT,NOT VERIFIED,Implied by 2470 decline; not independently located as printed observation
+2025-12-31,bulletin_table,16411.777,12772.630,3639.147,76446,,,77.1,60.0,17.1,77.826,22.174,47.6043,47.604152,,,,S08,VERIFIED,Published FX from p7
+2025-12-31,alternative_published_fx,,,,,,,,,,,,47.6950,,,,,S08,VERIFIED,Published FX from p13; conflicts with p7
+2026-06-30,latest_bulletin,17633.9,13890.4,3743.5,76148,,,81.95,64.6,17.4,78.771,21.229,49.1612,49.160845,,,,S02,VERIFIED,EGP stocks rounded to one decimal billion
+2026-06-30,external_gdp_alternative_text,,,,,,,,,,17.6,,,,,,,,S02,VERIFIED,p14 differs from p5 and p7

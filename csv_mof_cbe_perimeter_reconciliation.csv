@@ -1,0 +1,47 @@
+record_id,date,perimeter,metric,value,unit,status,source_id,locator,qualification
+D001,2026-03-31,MoF_budget_external,bilateral_loans,9620,USD_mn,VERIFIED,S02,p14,
+D002,2026-03-31,MoF_budget_external,multilateral_loans,40017,USD_mn,VERIFIED,S02,p14,
+D003,2026-03-31,MoF_budget_external,international_bonds,26780,USD_mn,VERIFIED,S02,p14,Foreign currency held by non-residents
+D004,2026-03-31,MoF_budget_external,Paris_Club,149,USD_mn,VERIFIED,S02,p14,
+D005,2026-03-31,MoF_budget_external,headline,76567,USD_mn,VERIFIED,S02,p14,
+D006,2026-03-31,MoF_budget_external,component_sum,76566,USD_mn,CALCULATED,S02,p14,
+D007,2026-06-30,MoF_budget_external,bilateral_loans,9632,USD_mn,VERIFIED,S02,p14,Corrects reversed input label
+D008,2026-06-30,MoF_budget_external,multilateral_loans,38918,USD_mn,VERIFIED,S02,p14,Corrects reversed input label
+D009,2026-06-30,MoF_budget_external,international_bonds,27597,USD_mn,VERIFIED,S02,p14,Foreign currency held by non-residents
+D010,2026-06-30,MoF_budget_external,Paris_Club,144,USD_mn,VERIFIED,S02,p14,Not labelled suppliers
+D011,2026-06-30,MoF_budget_external,headline,76148,USD_mn,VERIFIED,S02,p14,
+D012,2026-06-30,MoF_budget_external,component_sum,76291,USD_mn,CALCULATED,S02,p14,
+D013,2026-06-30,MoF_budget_external,component_sum_minus_headline,143,USD_mn,CALCULATED,S02,p14,Unresolved
+D014,2025-06-30,MoF_budget_external,headline,78579,USD_mn,VERIFIED,S06,p11,
+D015,2025-06-30,MoF_budget_external,alternative_starting_balance,78618,USD_mn,NOT VERIFIED,USER_INPUT,Brief,Implied by reported 2470 decline
+D016,2026-06-30,MoF_budget_external,yoy_change_using_located_balance,-2431,USD_mn,CALCULATED,S02;S06,p14; p11,
+D017,2026-06-30,MoF_budget_external,yoy_change_using_user_balance,-2470,USD_mn,CALCULATED,USER_INPUT;S02,Brief; p14,Conditional calculation
+D018,2026-06-30,CBE_economy_external,headline,166748,USD_mn,VERIFIED,S05,External sector row 5,Q2/26
+D019,2026-06-30,CBE_minus_MoF,headline_difference,90600,USD_mn,CALCULATED,S05;S02,External debt row; p14,Not a fully allocated institutional bridge
+D020,2026-06-30,CBE_economy_external,government,,USD_mn,NOT VERIFIED,,,
+D021,2026-06-30,CBE_economy_external,central_bank,,USD_mn,NOT VERIFIED,,,
+D022,2026-06-30,CBE_economy_external,banks,,USD_mn,NOT VERIFIED,,,
+D023,2026-06-30,CBE_economy_external,other_sectors,,USD_mn,NOT VERIFIED,,,
+D024,2025-06-30,CBE_economy_external,government,81994,USD_mn,VERIFIED,S03,Table46,
+D025,2025-06-30,CBE_economy_external,central_bank,37336,USD_mn,VERIFIED,S03,Table46,
+D026,2025-06-30,CBE_economy_external,banks,22236,USD_mn,VERIFIED,S03,Table46,
+D027,2025-06-30,CBE_economy_external,other_sectors,19664,USD_mn,VERIFIED,S03,Table46,
+D028,2025-06-30,CBE_economy_external,headline,161230,USD_mn,VERIFIED,S03,Table46,
+D029,2025-06-30,CBE_minus_MoF,government_scope_difference,3415,USD_mn,CALCULATED,S03;S06,Table46; p11,
+D030,2025-06-30,CBE_economy_external,non_government_sum,79236,USD_mn,CALCULATED,S03,Table46,
+D031,2025-06-30,CBE_minus_MoF,total_difference,82651,USD_mn,CALCULATED,S03;S06,Table46; p11,
+D032,2025-06-30,CBE_economy_external,medium_long_public_and_guaranteed,127860,USD_mn,VERIFIED,S03,Table50,
+D033,2025-06-30,CBE_economy_external,medium_long_private_non_guaranteed,2455,USD_mn,VERIFIED,S03,Table50,
+D034,2025-06-30,CBE_economy_external,medium_long_combined,130315,USD_mn,CALCULATED,S03,Table50,
+D035,2025-06-30,CBE_economy_external,short_term,30915,USD_mn,VERIFIED,S03,Table50,
+D036,2025-12-31,CBE_economy_external,medium_long_public_and_guaranteed,126608,USD_mn,VERIFIED,S03,Table50,
+D037,2025-12-31,CBE_economy_external,medium_long_private_non_guaranteed,2271,USD_mn,VERIFIED,S03,Table50,
+D038,2025-12-31,CBE_economy_external,medium_long_combined,128879,USD_mn,CALCULATED,S03,Table50,
+D039,2025-12-31,CBE_economy_external,short_term,34421,USD_mn,VERIFIED,S03,Table50,
+D040,2025-12-31,CBE_economy_external,headline,163911,USD_mn,VERIFIED,S03,Table50,
+D041,2025-12-31,CBE_economy_external,maturity_sum,163300,USD_mn,CALCULATED,S03,Table50,
+D042,2025-12-31,CBE_economy_external,maturity_sum_minus_headline,-611,USD_mn,CALCULATED,S03,Table50,Unresolved
+D043,2026-06-30,CBE_economy_external,medium_long_combined,,USD_mn,NOT VERIFIED,,,
+D044,2026-06-30,CBE_economy_external,short_term,,USD_mn,NOT VERIFIED,,,
+D045,2026-06-30,MoF_budget_external,whole_portfolio_currency_breakdown,,percent,NOT VERIFIED,S02,Whole bulletin,Do not substitute international bond subportfolio chart
+D046,2026-06-30,MoF_budget_external,whole_portfolio_fixed_floating_breakdown,,percent,NOT VERIFIED,S02,Whole bulletin,MTDS baseline retained separately

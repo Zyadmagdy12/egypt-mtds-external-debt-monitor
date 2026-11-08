@@ -1,0 +1,60 @@
+record_id,metric,period,value_low,value_high,unit,observation_type,status,source_id,locator,qualification
+B001,budget_sector_debt_gdp,FY2024/25,83.8,83.8,percent,baseline,VERIFIED,S01,p7; p34,Strategy vintage
+B002,budget_sector_debt_gdp,FY2025/26,81.8,81.8,percent,projection,VERIFIED,S01,p10; p34,Not an actual outcome
+B003,budget_sector_debt_gdp,FY2026/27,78.1,78.1,percent,projection,VERIFIED,S01,p10; p34,
+B004,budget_sector_debt_gdp,FY2027/28,75.2,75.2,percent,projection,VERIFIED,S01,p10; p34,
+B005,budget_sector_debt_gdp,FY2028/29,71,73,percent,target_range,VERIFIED,S01,p7; p34,
+B006,budget_sector_debt_gdp_chart,FY2028/29,72.2,72.2,percent,chart_projection,VERIFIED,S01,p10; p35,Point value inside target range
+B007,external_budget_debt_gdp,FY2024/25,21.8,21.8,percent,baseline,VERIFIED,S01,p15,Strategy vintage
+B008,external_budget_debt_gdp_explicit_trajectory,FY2025/26-FY2028/29,,,percent,target,NOT VERIFIED,S01,Whole document,No explicit annual trajectory located
+B009,external_budget_debt_gdp_conditional_endpoint,FY2028/29,14.2,14.6,percent,derived_target,CALCULATED,S01,p7,20 percent external share multiplied by total debt target range
+B010,interest_gdp_chart,FY2023/24,9.7,9.7,percent,historical,VERIFIED,S01,p16,
+B011,interest_gdp_chart,FY2024/25,10.7,10.7,percent,baseline,VERIFIED,S01,p16,Conflicts with p15 narrative
+B012,interest_gdp_narrative,FY2024/25,11,11,percent,baseline,VERIFIED,S01,p15,Conflicts with p16 chart
+B013,interest_gdp_chart,FY2025/26,11,11,percent,projection,VERIFIED,S01,p16,
+B014,interest_gdp_chart,FY2026/27,10.1,10.1,percent,projection,VERIFIED,S01,p16,
+B015,interest_gdp_chart,FY2027/28,9.2,9.2,percent,projection,VERIFIED,S01,p16,
+B016,interest_gdp_chart,FY2028/29,8.6,8.6,percent,target,VERIFIED,S01,p16,
+B017,overall_deficit_gdp,FY2024/25,7.2,7.2,percent,baseline,VERIFIED,S01,p34,Deficit expressed as positive magnitude
+B018,overall_deficit_gdp,FY2025/26,7,7,percent,projection,VERIFIED,S01,p34,
+B019,overall_deficit_gdp,FY2026/27,4.9,4.9,percent,projection,VERIFIED,S01,p34,
+B020,overall_deficit_gdp,FY2027/28,4.9,4.9,percent,projection,VERIFIED,S01,p34,
+B021,overall_deficit_gdp,FY2028/29,4.9,4.9,percent,projection,VERIFIED,S01,p34,
+B022,external_budget_debt_annual_reduction,Annual,1000,2000,USD_mn,target,VERIFIED,S01,p4; p6; p12,Reduction magnitude
+B023,domestic_debt_share,FY2024/25,74,74,percent_total_debt,baseline,VERIFIED,S01,p7,
+B024,domestic_debt_share,FY2028/29,80,80,percent_total_debt,target,VERIFIED,S01,p7,
+B025,total_portfolio_atm,FY2024/25,3.5,3.5,years,baseline,VERIFIED,S01,p7,Differs from bulletin treasury portfolio measure
+B026,total_portfolio_atm,FY2028/29,4.5,5,years,target,VERIFIED,S01,p7,
+B027,domestic_portfolio_atm,Analysis date,1.62,1.62,years,baseline,VERIFIED,S01,p37,Exact observation date not specified here
+B028,domestic_portfolio_atm_terminal,Medium term,,,years,target,NOT VERIFIED,S01,Whole document,
+B029,external_portfolio_atm,Whole horizon,,,years,baseline_and_target,NOT VERIFIED,S01,Whole document,
+B030,gfn_gdp,Analysis date,40,40,percent,approximate_baseline,VERIFIED,S01,p37,
+B031,gfn_cumulative_reduction,By FY2028/29,9,11,percentage_points_GDP,target,VERIFIED,S01,p3,GDP-denominated cumulative reduction
+B032,divestment_proceeds_for_debt_reduction,Medium term,50,,percent,minimum_target,VERIFIED,S01,p4; p27,
+B033,domestic_debt_maturing_one_year,Portfolio baseline,56.5,56.5,percent_domestic_debt,observation,VERIFIED,S01,p18,Conflicts with risk chapter
+B034,domestic_debt_maturing_one_year,Analysis date,43,43,percent_domestic_debt,observation,VERIFIED,S01,p37,Definition or vintage difference unresolved
+B035,domestic_refixing_one_year_text,Portfolio baseline,74,74,percent,observation,VERIFIED,S01,p18,
+B036,domestic_refixing_one_year_chart,Portfolio baseline,76,76,percent,observation,VERIFIED,S01,p19,Chart differs from text
+B037,domestic_fixed_rate_share,Portfolio baseline,80,80,percent,observation,VERIFIED,S01,p17; p19,
+B038,domestic_floating_rate_share,Portfolio baseline,20,20,percent,observation,VERIFIED,S01,p19,
+B039,external_fixed_rate_share,Portfolio baseline,58.5,58.5,percent,observation,VERIFIED,S01,p20,
+B040,external_floating_rate_share,Portfolio baseline,41.5,41.5,percent,observation,VERIFIED,S01,p20,
+B041,commercial_international_bonds_fixed_share,Portfolio baseline,93,93,percent,approximate_observation,VERIFIED,S01,p38,Commercial bond subportfolio only
+B042,foreign_currency_share_total_debt,2025-06-30,32,32,percent,observation,VERIFIED,S01,p38,Not external debt share
+B043,foreign_currency_share_constraint,Forecast endpoint,,40,percent,strict_upper_bound,PARTIALLY VERIFIED,S01,p40,Less than 40; endpoint horizon ambiguous
+B044,domestic_share_gross_issuance,Forecast endpoint,80,80,percent,projection,VERIFIED,S01,p40,Up to 80
+B045,international_share_total_issuance,Forecast endpoint,,5,percent,strict_upper_bound,VERIFIED,S01,p40,Less than 5
+B046,treasury_bonds_share_total_issuance,Forecast endpoint,50,50,percent,approximate_projection,VERIFIED,S01,p40,
+B047,treasury_bonds_share_domestic_issuance,Forecast endpoint,62,62,percent,approximate_projection,VERIFIED,S01,p40,
+B048,external_currency_USD,Portfolio baseline,46.82,46.82,percent,observation,VERIFIED,S01,p20,
+B049,external_currency_SDR,Portfolio baseline,25.57,25.57,percent,observation,VERIFIED,S01,p20,
+B050,external_currency_EUR,Portfolio baseline,16.67,16.67,percent,observation,VERIFIED,S01,p20,
+B051,external_currency_KWD,Portfolio baseline,7.54,7.54,percent,observation,VERIFIED,S01,p20,
+B052,external_currency_SAR,Portfolio baseline,2.27,2.27,percent,observation,VERIFIED,S01,p20,
+B053,external_currency_CNY,Portfolio baseline,0.62,0.62,percent,observation,VERIFIED,S01,p20,
+B054,external_currency_JPY,Portfolio baseline,0.83,0.83,percent,observation,VERIFIED,S01,p20,
+B055,external_currency_shares_sum,Portfolio baseline,100.32,100.32,percent,arithmetic,CALCULATED,S01,p20,Do not normalize silently
+B056,exchange_rate_shock_size,Stress testing,,,percent,shock_parameter,NOT VERIFIED,S01,p7; p9; pp37-40,Qualitative references only
+B057,domestic_interest_rate_shock,Stress testing,,,basis_points,shock_parameter,NOT VERIFIED,S01,Whole document,No numerical calibration located
+B058,foreign_interest_rate_shock,Stress testing,,,basis_points,shock_parameter,NOT VERIFIED,S01,Whole document,No numerical calibration located
+B059,combined_shock,Stress testing,,,parameter_set,shock_parameter,NOT VERIFIED,S01,Whole document,
